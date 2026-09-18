@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>St. Jude Collegiate & Academy | Academic Excellence</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-indigo-600 selection:text-white">
+
+  <!-- Top Announcement Bar (Parent Events) -->
+  <div class="bg-indigo-900/60 border-b border-indigo-700/50 py-2 px-4 text-xs flex items-center justify-between">
+    <div class="flex items-center gap-2 max-w-4xl mx-auto w-full">
+      <span class="px-2 py-0.5 rounded bg-indigo-500 text-white font-bold text-[10px] uppercase">Urgent Circular</span>
+      <span class="truncate text-indigo-200">Parent-Teacher Conference scheduled for Oct 12th. Term 1 Report Cards available on Portal.</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-slate-950/90 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 rounded-xl bg-indigo-600 flex items-center justify-center text-white font-black text-base shadow-lg shadow-indigo-600/30">
+          S
+        </div>
+        <span class="font-bold text-lg text-white">St. Jude <span class="text-indigo-400">Academy</span></span>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-xs font-semibold text-slate-300">
+        <a href="#courses" class="hover:text-indigo-400 transition-colors">Courses & Seat Matrix</a>
+        <a href="#faculty" class="hover:text-indigo-400 transition-colors">Faculty Directory</a>
+        <a href="#notices" class="hover:text-indigo-400 transition-colors">Parent Circulars</a>
+      </nav>
+      <a href="#courses" class="px-3.5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold shadow-md">
+        Admissions 2026-27
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="py-16 sm:py-24 text-center px-4 max-w-4xl mx-auto">
+    <span class="px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-semibold uppercase tracking-wider">
+      Accredited Secondary & Higher Secondary
+    </span>
+    <h1 class="text-3xl sm:text-6xl font-black text-white mt-4 tracking-tight leading-tight">
+      Nurturing Character, <br class="hidden sm:inline" />
+      <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-violet-300">Inspiring Innovation.</span>
+    </h1>
+    <p class="mt-4 text-slate-400 text-xs sm:text-base max-w-2xl mx-auto">
+      Founded in 1988. Delivering STEM and liberal arts programs with individualized academic mentoring and modern digital labs.
+    </p>
+  </section>
+
+  <!-- Course & Seat Matrix Table Section -->
+  <section id="courses" class="py-12 bg-slate-900/40 border-y border-slate-800 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-8 gap-4">
+        <div>
+          <h2 class="text-xs uppercase font-bold text-indigo-400 tracking-widest">Academic Admissions</h2>
+          <p class="text-2xl font-extrabold text-white mt-1">Course Catalog, Seat Quotas & Tuition</p>
+        </div>
+        <span class="text-xs text-slate-400">Total Campus Capacity: <strong>720 Seats</strong></span>
+      </div>
+
+      <div class="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-950">
+        <table class="w-full text-left text-xs border-collapse">
+          <thead>
+            <tr class="border-b border-slate-800 bg-slate-900/80 text-slate-300 font-bold uppercase tracking-wider">
+              <th class="p-4">Standard / Program</th>
+              <th class="p-4">Stream / Specialization</th>
+              <th class="p-4">Total Seats</th>
+              <th class="p-4">Available Vacancies</th>
+              <th class="p-4">Annual Fee</th>
+              <th class="p-4 text-right">Application</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-800/80 text-slate-300">
+            <tr>
+              <td class="p-4 font-bold text-white">Grade 11 & 12</td>
+              <td class="p-4">Pure Science (PCM + CompSci)</td>
+              <td class="p-4 font-mono">120</td>
+              <td class="p-4 font-mono text-emerald-400 font-bold">18 Seats Left</td>
+              <td class="p-4 font-mono font-bold">$3,400 / yr</td>
+              <td class="p-4 text-right">
+                <button onclick="alert('Application form opened for Pure Science');" class="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-semibold">Apply Online</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="p-4 font-bold text-white">Grade 11 & 12</td>
+              <td class="p-4">Commerce & Applied Economics</td>
+              <td class="p-4 font-mono">100</td>
+              <td class="p-4 font-mono text-amber-400 font-bold">6 Seats Left</td>
+              <td class="p-4 font-mono font-bold">$2,900 / yr</td>
+              <td class="p-4 text-right">
+                <button onclick="alert('Application form opened for Commerce');" class="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-semibold">Apply Online</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="p-4 font-bold text-white">Grade 9 & 10</td>
+              <td class="p-4">General Secondary Curriculum</td>
+              <td class="p-4 font-mono">250</td>
+              <td class="p-4 font-mono text-emerald-400 font-bold">34 Seats Left</td>
+              <td class="p-4 font-mono font-bold">$2,400 / yr</td>
+              <td class="p-4 text-right">
+                <button onclick="alert('Application form opened for Secondary');" class="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-semibold">Apply Online</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="p-4 font-bold text-white">Grade 6 to 8</td>
+              <td class="p-4">Middle School Preparatory</td>
+              <td class="p-4 font-mono">250</td>
+              <td class="p-4 font-mono text-rose-400 font-bold">Waitlist Only</td>
+              <td class="p-4 font-mono font-bold">$2,100 / yr</td>
+              <td class="p-4 text-right">
+                <button onclick="alert('Added to secondary waitlist');" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 font-semibold">Join Waitlist</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Faculty & Management Profiles -->
+  <section id="faculty" class="py-16 px-4 sm:px-6 max-w-6xl mx-auto">
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <h2 class="text-xs uppercase font-bold text-indigo-400 tracking-widest">Leadership & Mentors</h2>
+      <p class="text-2xl font-extrabold text-white mt-1">Distinguished Faculty & Heads of Department</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+      <div class="p-5 rounded-2xl bg-slate-900/60 border border-slate-800 text-center">
+        <div class="w-20 h-20 rounded-2xl bg-slate-800 mx-auto mb-4 overflow-hidden border border-slate-700">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80" class="w-full h-full object-cover" alt="Principal" />
+        </div>
+        <h3 class="text-base font-bold text-white">Dr. Elizabeth Montgomery</h3>
+        <p class="text-xs text-indigo-400 font-medium">Principal & Dean of Academics</p>
+        <p class="text-xs text-slate-400 mt-2">Ph.D. in Education Policy, Oxford University. 22 years of secondary school leadership.</p>
+      </div>
+
+      <div class="p-5 rounded-2xl bg-slate-900/60 border border-slate-800 text-center">
+        <div class="w-20 h-20 rounded-2xl bg-slate-800 mx-auto mb-4 overflow-hidden border border-slate-700">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" class="w-full h-full object-cover" alt="Vice Principal" />
+        </div>
+        <h3 class="text-base font-bold text-white">Prof. Marcus Sterling</h3>
+        <p class="text-xs text-indigo-400 font-medium">Head of STEM & Computer Labs</p>
+        <p class="text-xs text-slate-400 mt-2">M.Sc. Mathematics & Robotics. Former National Olympiad Lead Mentor.</p>
+      </div>
+
+      <div class="p-5 rounded-2xl bg-slate-900/60 border border-slate-800 text-center">
+        <div class="w-20 h-20 rounded-2xl bg-slate-800 mx-auto mb-4 overflow-hidden border border-slate-700">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80" class="w-full h-full object-cover" alt="Student Counselor" />
+        </div>
+        <h3 class="text-base font-bold text-white">Helena Rostova</h3>
+        <p class="text-xs text-indigo-400 font-medium">Head of Student Welfare & Counseling</p>
+        <p class="text-xs text-slate-400 mt-2">M.A. Child Psychology. Specialized in university placements & pastoral student care.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Live Parent Circulars / Notifications -->
+  <section id="notices" class="py-12 bg-slate-900/50 border-t border-slate-800 px-4 sm:px-6">
+    <div class="max-w-4xl mx-auto">
+      <div class="flex items-center justify-between mb-6">
+        <div>
+          <h2 class="text-xs uppercase font-bold text-indigo-400 tracking-widest">Notice Board</h2>
+          <p class="text-xl font-extrabold text-white mt-1">Official Parent Circulars & Schedules</p>
+        </div>
+      </div>
+
+      <div class="space-y-3">
+        <div class="p-4 rounded-xl bg-slate-950 border border-slate-800 flex items-start gap-4">
+          <div class="p-2.5 rounded-lg bg-indigo-500/10 text-indigo-400 shrink-0">
+            <i data-lucide="bell" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-bold text-white">Annual Science & Robotics Exhibition</span>
+              <span class="text-[10px] text-slate-500 font-mono">Posted 2 days ago</span>
+            </div>
+            <p class="text-xs text-slate-400 mt-1">Parents are invited to view projects by Grades 8 through 12 in the Central Auditorium on Friday at 2:00 PM.</p>
+          </div>
+        </div>
+
+        <div class="p-4 rounded-xl bg-slate-950 border border-slate-800 flex items-start gap-4">
+          <div class="p-2.5 rounded-lg bg-emerald-500/10 text-emerald-400 shrink-0">
+            <i data-lucide="file-text" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-bold text-white">Term 1 Assessment Date Sheet Released</span>
+              <span class="text-[10px] text-slate-500 font-mono">Posted 5 days ago</span>
+            </div>
+            <p class="text-xs text-slate-400 mt-1">Final examination timetables have been uploaded. Parents can download the signed PDF circular directly from their portal login.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 border-t border-slate-800 text-center text-xs text-slate-500">
+    &copy; 2026 St. Jude Collegiate & Academy. Powered by Zion Apps Studio.
+  </footer>
+
+  <script>lucide.createIcons();</script>
+</body>
+</html>
